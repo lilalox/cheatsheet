@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML cheat sheet</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
+        </nav>
+        <div class='title'>
+            <h1>HTML cheat sheet</h1>
+            <p class="subtitle">Everything you need to start coding now!</p>
+        </div>
+    </header>
+    <main>
+        <article>
+            <h2>Tables</h2>
+            <table>
+                <!-- <colgroup>
+                    <col class="code">
+                    <col>
+                </colgroup> -->
+                <thead>
+                    <tr>
+                        <th>Element</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="code">&lt;table&gt;</td>
+                        <td>Tag enclosing the whole table content</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tr&gt;</td>
+                        <td>Table row. Encloses table data (cells)</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;td&gt;</td>
+                        <td>Table data (cell). Child of the <span class="code">&lt;tr&gt</span> element</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;th&gt;</td>
+                        <td>Table header element</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;thead&gt;</td>
+                        <td>Child of <span class="code">&lt;table&gt;</span>, encloses the table head</td>
+                    </tr>
+                    <tr>
+                        <td class="code">&lt;tbody&gt;</td>
+                        <td>Child of <span class="code">&lt;table&gt;</span>, encloses the table body</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <aside>
+            <h3>What are tables for?</h3>
+            <p>Tables should - suprisingly - be used to hold tabular data. They should <b>not</b> be used for HTML pagestyling!</p>
+
+            <h3>Documentation</h3>
+            <p>Find out more about tables on <a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics">MDN</a>.</p>
+        </aside>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>

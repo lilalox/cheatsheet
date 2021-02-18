@@ -1,0 +1,133 @@
+/* CSS reset */
+* {
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	}
+
+/*Start of styling*/
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: rgb(226, 226, 226);
+}
+
+header {
+    background-image: url('https://ak.picdn.net/shutterstock/videos/9597371/thumb/1.jpg');
+    background-size: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 1em;
+}
+
+nav ul li:hover {
+    background-color: steelblue;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.title {
+    text-align: center;
+    padding: 20px 0 70px 0;
+}
+
+.title h1, .title p {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.title h1 {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 0;
+    border-right: white;
+    border-right-style: solid;
+    border-width: 3px;
+}
+
+.title p {
+    font-style: italic;
+    font-size: 20px;
+    width: 15%;
+    padding: 10px 0 10px 0;
+    margin-left: 10px;
+}
+
+
+h2 {
+    background-color: rgb(173, 216, 218);
+    padding: 3px 10px;
+    margin: 0 0 10px 0;
+    border-top-left-radius: 10px;
+    border-color: grey;
+    border-width: 1em;
+}
+
+h3 {
+    margin: 20px 0 10px;
+}
+
+.code {
+    font-family: Consolas, Courier, monospace;
+    color: slategrey;
+}
+
+article {
+    float: left;
+    width: 68%;
+    background-color: whitesmoke;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: 10px;
+}
+
+aside {
+    height: 100%;
+    width: 28%;
+    margin: 0 0 0 10px;
+    position: fixed;
+    z-index: 1;
+    right: 0; 
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    padding: 0px 20px;
+    text-align: justify;
+}
+
+table {
+    margin: 5px;
+    background-color:white;
+    min-width: 50%;
+    border-color: grey;
+    border-style:solid;
+    border-width: 1px;
+}
+
+th {
+    padding: 5px 10px;
+    text-align: left;
+    background-color: lightgrey;
+}
+
+td {
+    padding: 5px 10px;
+}
+
+tr:nth-child(2n) {
+    background-color: whitesmoke;
+}
